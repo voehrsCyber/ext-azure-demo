@@ -1,10 +1,6 @@
 pool:
   vmImage: 'ubuntu-latest'
 
-variables:
-- group: build-vars-common
-- group: build-vars-apikey
-
 steps:
 - task: GetConjurSecret@1
   inputs:
