@@ -14,5 +14,6 @@ output "Gitbot-token" {
 }
 
 output "Gitbot-name" {
+  sensitive = false
   value = var.botName
 }
